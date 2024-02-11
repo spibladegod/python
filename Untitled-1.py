@@ -1,9 +1,7 @@
 def sum_number(number):
-    num = 1
     result = 0
-    while num < number + 1:
+    for num in range(number + 1):
         result += num
-        num += 1
     return result
 
 
